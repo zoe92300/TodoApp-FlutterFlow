@@ -28,6 +28,7 @@
     "uid": {
       "type": "string",
       "description": "The unique identifier for the user."
-    },
-    "database_location": {
-     
+    }
+  },
+  "required": ["uid", "email", "display_name", "created_time", "birthday", "favorite_day"]
+}
