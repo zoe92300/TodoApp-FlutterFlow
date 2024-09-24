@@ -84,7 +84,7 @@ class _LoginWidgetState extends State<LoginWidget>
                       borderRadius: BorderRadius.circular(8.0),
                       child: SvgPicture.asset(
                         'assets/images/Frame_4.svg',
-                        width: 150.0,
+                        width: 110.0,
                         height: 82.0,
                         fit: BoxFit.contain,
                       ),
