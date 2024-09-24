@@ -21,10 +21,13 @@
       "format": "email",
       "description": "The user's email address."
     },
+    "favorite_day": {
+      "type": "string",
+      "description": "The user's favorite day of the week."
+    },
     "uid": {
       "type": "string",
       "description": "The unique identifier for the user."
-    }
-  },
-  "required": ["uid", "email", "display_name", "created_time", "birthday"]
-}
+    },
+    "database_location": {
+     
